@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Register</title>
+        <link rel="stylesheet" href="css/register.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+
+    <body>      
+        <div class="container-fluid">
+            <br>
+            <div class="row">
+                <div class="col-sm-5">
+                    <div class="row">   
+                        <div class="col-3 offset-3">
+                            <img src="assets/guvi_logo_black.png">
+                        </div>                        
+                    </div>       
+                    <div class="row">
+                        <div class="col-3 offset-3">
+                            <img src="assets/guvi_code_camp.jpeg">
+                        </div>
+                    </div>    
+                    <div class="row">
+                        <br>
+                    </div>         
+                </div>
+
+                <div class="col-sm-5 offset-1  form_class">                    
+                    <div class="row ">                        
+                        <h1>Register</h1>
+                        <br><br><br><br>
+                    
+                        <!--Name-->
+                        <div class="row">
+                            <label class="form-label" for="userName">Name :</label>
+                            <p id="p1"></p>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-10">
+                                <input type="text" id="userName" class="form-control form-control-lg">
+                            </div>
+                        </div>
+
+                        <!--Email-->
+                        <div class="row">
+                            <label class="form-label" for="userEmail">Email address :</label>
+                            <p id="p2"></p>
+                        </div>
+                        <div class="row">
+                            <div class="col-10">
+                                <input type="email" id="userEmail" class="form-control form-control-lg">
+                            </div>
+                        </div>
+
+                        <!--Password-->
+                        <div class="row">
+                            <label class="form-label" for="userPassword">Password :</label>
+                            <p id="p3"></p>
+                        </div>
+                        <div class="row">
+                            <div class="col-10">
+                                <input type="password" id="userPassword" class="form-control form-control-lg">
+                                <p class="passwordPrompt">Must contain atleast one lowercase letter,one uppercaseletter,one number,one special character,minimum of 8-characters and shouldn't exceed 15-characters.</p>
+                            </div>
+                        </div>
+
+                        <!--Reconfirm Password-->
+                        <div class="row">
+                            <label class="form-label" for="rePassword">Retype Password :</label>
+                            <p id="p4"></p>
+                        </div>
+                        <div class="row">
+                            <div class="col-10">
+                                <input type="password" id="rePassword" class="form-control form-control-lg">
+                            </div>
+                        </div>
+                        
+                        <!--Register Button-->
+                        <div class="row">
+                            <br>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <button type="button" id="registerBtn" class="btn btn-primary">Register</button>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <br>
+                        </div>                     
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!--Jquery CDN and JS-->
+        <script src="https://code.jquery.com/jquery-3.6.4.js" integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+        <script src="js/register.js"></script>
+        
+        <!--Bootstrap JS Bundle-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+
+</html>
