@@ -20,5 +20,4 @@ information of the user;if the session is expired or invalid the user is redirec
 clears the session details in browser local storage as well as from Redis database.The user can't simply press "back button" in browser and return to Profile after
 logging out.Therefore,strong security is maintained by sessioning using Browser Local Storage and Redis.
 
-
-
+![My Image](guvi_task/assets/outputs/register.png)
